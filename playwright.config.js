@@ -14,7 +14,7 @@ module.exports = defineConfig({
   projects: [
     {
       name: "milestone1",
-      testMatch: "milestone1.test.ts",
+      testMatch: "milestone1.test.js",
       use: { ...devices["Desktop Chrome"] },
     },
   ],
