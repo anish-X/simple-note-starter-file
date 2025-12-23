@@ -40,7 +40,7 @@ function App() {
         <div className="space-y-2">
           {notes.length === 0 ? (
             <p className="text-gray-500 text-center py-8">
-              No notes yet. Add one above!
+              No notes yet. Add one above!!
             </p>
           ) : (
             notes.map((note, index) => (
